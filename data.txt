@@ -1,0 +1,52 @@
+espresso 1 3500 2 highly concentrated coffee.
+caramel_machiato 1 5000 1 latte with caramel syrup.
+gold_kiwiade 2 4500 2 handmade kiwiade, fresh and sweet.
+greentea_frappuccino 2 6000 3 Green tea and grind ice meet together to give a fantastic taste.
+hawaiade 2 5000 2 feel like hawai.
+apple_juice 2 4500 1 fresh apple juice.
+yellow_cake 3 5000 2 piece cake, mango cake. 
+lemon_cake 3 3000 3 lemon pound cake.
+gray_tea 2 4000 2 gray is tea, It's a heavy.
+fruit_tea 2 5500 3 It is a refreshing and sweet tea with various fruits.
+egg_tart 3 2000 3 It's egg tarts where the taste of soft eggs melts in your mouth.
+vanilla_latte 1 5000 2 sweet coffee with vanilla syrup in it.
+vienna_coffee 1 5500 3 coffee with whipping cream after diluting with water in espress.o
+apple_ade 2 4500 2 ade made by mixing homemade apple syrup with cool carbonated water.
+coffee_frappe 1 5000 2 frozen coffee with espresso, milk and vanilla ice cream.
+choco_parfait 2 4500 2 Chocolate syrup is a combination of ice cream and fresh sparkling water.
+strawberry_gelato 3 3000 3 It has a chewy texture with Italian ice cream.
+ristretto 1 4000 1 coffee extracted from espresso in a short period of time.
+lungo 1 4000 2 You can feel the soft and bitter taste of the long-extracted espresso.
+cappuccino 1 5000 1 coffee with a combination of milk and milk foam and characterized by a soft, rich flavor.
+caffe_conpanna 1 4500 2 A menu that you enjoy sweetly with whipped cream on top of espresso.
+caffe_mocha 1 5000 3 coffee with espresso, milk, chocolate and whipped cream.
+maxim_coffee 1 3000 3 Enjoy the sweet taste of Maxim coffee that is hot these days.
+orange_ade 2 4500 2 Ade made of ground oranges is sweet and fresh.
+milk_bread 3 4000 3 bread with milk instead of water made by june cafe.
+morning_bread 3 2000 2 It is a bread with a light and soft taste. Two are provided.
+chiffon_cake 3 5000 2 cake slices with soft, sweet whipped cream on a moist, elastic chiffon sheet.
+waffle 3 4000 3 waffle with blueberries and vanilla ice cream.
+May_cake 3 6000 3 signature slice cake of june cafe with chocolate cream.
+tomato_juice 2 4500 2 raw fruit juice made from ground tomatoes.
+raspberry_mojito 2 5000 3 Mojito made by mixing raspberries and berries is refreshing.
+spring_tea 2 4300 3 Spring flower tea, which can only be tasted in june cafes.
+rosemary_tea 2 4000 2 a tea full of rosemary herbs.
+blackhole_coffee 1 5000 2  Coffee that you can't get out of as soon as you drink it.
+Banana_coffee 1 4500 3 if you wnat to feel like a vacation spot in the Philippines in Korea, you should try!
+May_madeleine 3 3000 2 Made of handmade madeleine, you can feel soft and moisur.
+May_lemonade 2 4000 1 Fresh lemonade, made by juiceing the lemon directly.
+June_coffee 1 5000 3 The best menu of May Cafe, Vienna coffee with whipped cream on it
+GREEN_COFFEE&MILK 1 6000 3 The combination of green tea and milk makes me feel soft.
+hello_world_cake 3 25000 3 hand made cake, strawberry cake.
+sweet_latte 1 4500 3 a delicious latte with sweet potatoes.
+Americano 1 3000 1 ice Americano.
+May_brownie 3 3500 2 sweet and charming brownies.
+cranberries_cookie 3 1500 3 It's a cookie with fresh cranberries in butter dough.
+butter_cookie 3 1300 3 It's a sweet, light cookie that mixes butter dough and chocolate pieces.
+cheesecake 3 4000 3 You can taste the original taste of cheesecake cheese made by June Cafe.
+flower_ade 2 6500 3 Flower ade is a specially happy drink. Strawberryade is decorated with flowers.
+rain_drop 1 5000 2 Drop coffee served by June Cafe, which can only be eaten on rainy days.
+sunny_coffee 1 5000 3 served with the recommended coffee beans. coffee can only be eaten on a clear & sunny day.
+cloud_cake 3 3000 2 you can refresh your mood by looking at the sky with clouds. They sell it without the clouds.
+happy_coding 2 4000 2 a drink that must be eaten after coding.
+butter_coffee 1 5000 3 It's a savory, light coffee with butter in it.
