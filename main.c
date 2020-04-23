@@ -34,8 +34,8 @@ void Manager(){
 	int kiosk;
 	while(1){
 		printf("\n*********************************************************************************************************\n");
-		printf("KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Dlete 5.List(all) 6.List(category)\n");
-		printf("7.Search(menu) 8.Sort 9.Save 10.piece Sort 11.Order Check 12.Order Update 0.quit");
+		printf("KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Delete 5.List(all) 6.List(category)\n");
+		printf("7.Search(menu) 8.Sort 9.Save 10.Piece Sort 11.Order Check 12.Order Update 0.quit");
 		printf("\n*********************************************************************************************************\n");
 		printf("\nEnter menu num > ");
 		scanf("%d", &kiosk);
