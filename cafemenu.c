@@ -351,8 +351,8 @@ int m_piece(){
 
 	for(i = 0 ; i < a; i++){
 		piece_count--;
-		free(cafes[piece_count]);
 		cafes[piece_count] = NULL ;
+		free(cafes[piece_count]);
 	}
 
 	
