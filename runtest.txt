@@ -1,0 +1,46 @@
+Manager(1) / Guest(2) / quit(0) > 1
+
+*********************************************************************************************************
+KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Delete 5.List(all) 6.List(category)
+7.Search(menu) 8.Sort 9.Save 10.Piece Sort 11.Order Check 12.Order Update 0.quit
+*********************************************************************************************************
+
+Enter menu num > 1
+
+1.load file 2. wirte keyboard > 2
+Menu Name > icetea
+Enter Category(1.COFFEE 2.NON-COFFEE 3.DESERT)> 2
+Menu Price > 300
+Popular level(1:soso 2.good 3.best) > 2
+Menu Information > sweet and cool tea
+** Create Menu! **
+
+
+*********************************************************************************************************
+KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Delete 5.List(all) 6.List(category)
+7.Search(menu) 8.Sort 9.Save 10.Piece Sort 11.Order Check 12.Order Update 0.quit
+*********************************************************************************************************
+
+Enter menu num > 3
+Enter update
+1.all 2.category 3.menu name 4.price 5.popular level 6.information > 4
+Enter update menu name > icetea
+Enter price > 3000
+
+*********************************************************************************************************
+KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Delete 5.List(all) 6.List(category)
+7.Search(menu) 8.Sort 9.Save 10.Piece Sort 11.Order Check 12.Order Update 0.quit
+*********************************************************************************************************
+
+Enter menu num > 2
+
+1.Read Menu(detail) 2.Read Menu Information(explain) > 1
+Menu name > icetea
+
+
+<icetea's info.>
+
+Category : [NON-COFFEE]
+Price : 3000won
+Popular level : ♡♡
+-----------------------------------------
