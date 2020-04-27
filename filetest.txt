@@ -1,0 +1,14 @@
+Manager(1) / Guest(2) / quit(0) > 1
+
+*********************************************************************************************************
+KIOSK MENU[MANAGER] : 1.Create 2.Read(menu, information) 3.Update 4.Delete 5.List(all) 6.List(category)
+7.Search(menu) 8.Sort 9.Save 10.Piece Sort 11.Order Check 12.Order Update 0.quit
+*********************************************************************************************************
+
+Enter menu num > 1
+
+1.load file 2. wirte keyboard > 1
+Enter file name to load > data.txt
+
+Complete read data.txt.txt file!
+
