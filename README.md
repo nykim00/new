@@ -116,11 +116,3 @@
 
 0. quit
 	+ Manager mode와 Guest mode를 선택하는 화면으로 나갈 수 있는 기능 
-
-
-
-------------------------------------------	
-지금까지 june-may의 CRUDKIOSK Project에 대한 README 파일 내용이었습니다.
-
-봐주셔서 감사합니다!
-
