@@ -22,13 +22,13 @@
 
 	+ 디버깅을 사용할 경우 
 	
-		$ make 
-		$ ./main
+	$ make 
+	$ ./main
 
 	+ 디버깅을 사용하지 않을 경우 
 
-		$ make main
-		$ ./main
+	$ make main
+	$ ./main
 
 
 
