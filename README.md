@@ -118,4 +118,9 @@
 	+ 별명을 입력한 후에 원하는 메뉴의 이름을 입력하면 주문 할 수 있는 기능
 
 0. quit
-	+ Manager mode와 Guest mode를 선택하는 화면으로 나갈 수 있는 기능 
+	+ Manager mode와 Guest mode를 선택하는 화면으로 나갈 수 있는 기능
+
+----------------
+
+README 파일을 읽어주셔서 감사합니다.
+이제 KIOSK project의 code를 확인해주시면 됩니다.
