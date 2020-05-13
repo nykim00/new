@@ -23,7 +23,7 @@ void m_create_file(char* filename){
 
 	FILE* fp = fopen(filename,"rw");
 	if(fp == NULL) {
-		printf("\nDo Not search file name \n");
+		printf("\n[ERROR] Do Not search file name \"%s\"\n", filename);
 		return ;
 	}
 
@@ -108,11 +108,6 @@ void m_delete_all(){
 }
 
 void m_delete_menu(char* m){
-
-	if(m_search_by_menu(m)==NULL){
-		printf("\nNO SEARCH MENU NAME\n");
-		return;
-	}
 
 	CAFE* p  = m_search_by_menu(m);
 

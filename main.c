@@ -16,6 +16,7 @@ void piece();
 void order_check();
 void order_update();
 void order_guest();
+void print_error(char* m);
 
 int main(){
 	int person;
@@ -114,7 +115,7 @@ void Guest(){
 		}
 	}
 }
-
+ 
 void create(){
 	int choice;
 	printf("\n1.load file 2. wirte keyboard > ");
@@ -138,7 +139,7 @@ void create(){
 		printf("Menu Name > ");
 		scanf("%s", menu);
 		if(m_search_by_menu(menu)){
-			printf("\n[DUPLICATED MENU NAME !]\n");
+			printf("\n[ERROR] Duplicated Menu Name! \n");
 			return;
 		}
 
@@ -180,7 +181,7 @@ void read(){
 		printf("\n<%s Information>\n\n%s \n\n", menu, m_getinformation(p));
 	}
 	else{
-		printf("\n[%s] IS NOT MENU\n",menu);
+		print_error(menu);
 		return ;
 	}
 }
@@ -196,7 +197,7 @@ void update(){
 	printf("Enter update menu name > ");
 	scanf("%s", menu);
 	if(!m_search_by_menu(menu)){
-		printf("\n[NO SEARCH MENU!]\n");
+		print_error(menu);
 		return ;
 	}
 	CAFE* p = m_search_by_menu(menu);
@@ -245,7 +246,7 @@ void update(){
 		default :
 			break;
 	}
-
+	printf("\nUpdate Compelte !\n");
 	return ;
 }
 
@@ -258,12 +259,17 @@ void delete(){
 
 	if(choice == 1){
 		m_delete_all();
-		printf("\nCOMPLETE ALL DELETE\n");
+		printf("\n[Message] COMPLETE ALL DELETE !\n");
 	}
 	else if(choice == 2){
 		char menu[20];
 		printf("Enter delete menu name > ");
 		scanf("%s", menu);
+		
+		if(m_search_by_menu(menu) == NULL){
+			print_error(menu);
+			return;
+		}
 		m_delete_menu(menu);
 	}
 
@@ -307,7 +313,7 @@ void list_category(){
 void list_sort(){
 	printf("\n");
 	m_sort();
-	printf("\nCOMPLETE SORT!\n");
+	printf("\n[Message] COMPLETE SORT !\n");
 }
 
 void search_menu(){
@@ -331,7 +337,7 @@ void save(){
 	printf("\nEnter File Name > ");
 	scanf("%s", filename);
 	m_save(filename);
-	printf("\n[Save menu in %s !]\n\n",filename);
+	printf("\n[Message] Save menu in \"%s\" !\n\n",filename);
 }
 
 void piece(){
@@ -345,18 +351,18 @@ void piece(){
 	piece_return = m_piece();
 	
 	if(piece_return == -1){
-		printf("\nNo memory cleanup is required!\n");
+		printf("\n[Message] No memory cleanup is required!\n");
 		return ;
 	}
 
-	printf("\nMemory organaized number of %d !\n", piece_return);
+	printf("\n[Message] Memory organaized number of %d !\n", piece_return);
 	
 	return;
 }
 
 void order_check(){
 	if(o_first_available() == 0){
-		printf("\nHAVE NOT ORDER..\n");
+		printf("\n[Message] HAVE NOT ORDER..\n");
 		return ;
 	}
 
@@ -369,13 +375,13 @@ void order_check(){
 		printf("%d. %s\n", i+1, o_to_string(p));
 	}
 #ifdef DEBUG
-	printf("\n\n[Show Complete List !]\n\n");
+	printf("\n\n[Message] Show Complete List !\n\n");
 #endif
 }
 
 void order_update(){
 	if(o_first_available()== 0){
-		printf("\nHAVE NOT ORDER..\n");
+		printf("\n[Message] HAVE NOT ORDER..\n");
 		return ;
 	}
 	printf("\n");
@@ -387,7 +393,7 @@ void order_update(){
 		printf("\nEnter gets nickname > ");
 		scanf("%s", guest);
 		if(!o_search_by_guest(guest)){
-			printf("No Search guest Nickname!\n");
+			printf("[ERROR] No Search guest Nickname!\n\n");
 		}
 		else
 			break;
@@ -397,9 +403,7 @@ void order_update(){
 	scanf("%d", &choice);
 	
 	o_update_clear(o_search_by_guest(guest),choice);
-#ifdef DEBUG
-	printf("[DEBUG] complete update!\n");
-#endif
+	printf("\n[Message] complete update!\n");
 }
 
 void order_guest(){
@@ -412,7 +416,7 @@ void order_guest(){
 		printf("\nEnter Nickname > ");
 		scanf("%s", guest);
 		if(o_search_by_guest(guest)){
-			printf("[Duplication Nickname, try again!]\n");
+			printf("[ERROR] Duplication Nickname, try again !\n");
 		}
 		else
 			break;
@@ -425,11 +429,15 @@ void order_guest(){
 		scanf("%s", menu);
 
 		if(!m_search_by_menu(menu)){
-			printf("\nNo search menu, try again !\n");
+			print_error(menu);
 		}	
 		else 
 			break;
 	}
 	
 	o_ordering(guest, menu);
+}
+
+void print_error(char* m){
+	printf("\n[ERROR] NO Search Menu \" %s \", try again!\n ", m);
 }
